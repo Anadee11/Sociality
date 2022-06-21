@@ -1,0 +1,60 @@
+.share{
+    width: 100%;
+    height: 170px;
+    border-radius: 13px;
+    -webkit-box-shadow: 2px 0px 7px 2px rgba(0,0,0,0.28); 
+    box-shadow: 2px 0px 7px 2px rgba(0,0,0,0.28);
+}
+.shareWrapper{
+    padding: 15px;
+}
+.shareTabTop{
+    display: flex;
+    align-items: center;
+}
+.shareTopImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.shareTopText{
+    border: none;
+    font-size: 17px;
+    width: 70%;
+    padding-left: 15px;
+}
+.shareTopText:focus{
+    outline: none;
+}
+.shareHr{
+    margin: 10px;
+}
+.shareTabBottom{
+    display: flex;
+    align-items: center;
+}
+.shareOptions{
+    display: flex;
+    margin-left: 10px;
+}
+.shareOption{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: 500;
+}
+.shareIcon{
+margin-right: 10px;
+}
+.shareButton{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #F64C72;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    margin-left: 150px;
+
+}

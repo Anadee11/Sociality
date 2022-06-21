@@ -1,0 +1,31 @@
+.friendListItem{
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 5px; */
+}
+.rightbarProfileImgContainer{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.rightbarProfileImg{
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.onlineUsername{
+font-weight: 500;
+}
+.online{
+    height: 10px;
+    width: 10px;
+    background-color: greenyellow;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 11px;
+    left: 39px;
+}
